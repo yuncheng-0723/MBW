@@ -1,0 +1,225 @@
+body{
+    margin: 0%;
+}
+
+.root {
+    font-size: 17px;
+    padding-top: 8px;
+}
+
+p {
+    margin: 0px;
+}
+
+.title-text {
+    padding-left: 8px;
+    font-family: 標楷體;
+}
+
+.title-text>a>img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* 超出範圍時要換行
+     flex-wrap: nowrap | wrap | wrap-reverse;
+     參考:https://wcc723.github.io/css/2017/07/21/css-flex/
+    */
+   
+    font-family: 'Langar', cursive;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    /* 對bottom裡做margin*/
+    padding: 12px;
+    border: 1px solid #ccc;
+    /* border-radius: 3px;
+    讓尖角變為圓角感覺不明憲就不使用了
+    */
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    /* display:block - 區塊，元素會以區塊方式呈現
+block 的特性是可以設定高度、寬度、上方與下方距離，
+像是 div、p、ul、li 均屬 block。
+參考https://www.webtech.tw/info.php?tid=37
+*/
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #000000;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #8f0000;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    /* flex-diration:row/row-reverse/column/column-reverse 
+    假如有reverse的就會反轉，例如順序1-2-3會變為3-2-1
+    參考網址:https://wcc723.github.io/css/2017/07/21/css-flex/
+    */
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
+
+.title-text>p {
+    width: 1400px;
+}
+
+.title-text>h2 {
+    margin: 0px;
+}
+
+
+
+/*
+
+*/
+.header-1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    width: 1000px;
+}
+
+.header-text-1 {
+    font-size: 20px;
+}
+
+.header-text-1>a:link {
+    color:black;
+    text-decoration: none;
+}
+
+.header-text-1>a:visited {
+    color:black;
+}
+
+.header-text-1>a:hover {
+    color: red;
+}
+
+.header-text {
+    width: 100px;
+}
+
+.header-img>div {
+    width: 100%;
+}
+
+.header-img-logo {
+    width: 100px;
+}
+
+.header-img-logo>div {
+    width: 100%;
+}
+
+.header-top {
+    flex-wrap: wrap;    
+}
+
+.header-img-d>div {
+    width: 100%;
+}
+
+.header-img-logo2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 60px;
+}
+
+.header-img-logo2>div {
+    padding-top: 10px;
+}
+
+.header-tt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;      
+    background-color:#c7c4eb;;
+}
+
+
+
+
+
+/*
+*/

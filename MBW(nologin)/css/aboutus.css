@@ -1,0 +1,165 @@
+body{
+    margin: 0%;
+}
+.root-body{
+    flex-wrap: wrap;
+    width: 1900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.root-body-1{
+    flex-wrap: wrap;
+    width: 1300px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.about{
+    flex-wrap: wrap;
+    width: 1200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.about >hr{
+    width: 1200px;
+}
+
+.aboutus{
+    flex-wrap: wrap;
+    width: 1000px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.aboutus > h3{
+    width: 1000px;
+}
+
+.us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.us-p{
+    width: 150px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.us-p >p{
+    width: 150px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img>div{
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+}
+
+.img>div>img{
+    width: 100%;
+}
+
+
+/*
+
+*/
+.header-1 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    width: 1000px;
+}
+
+.header-text-1 {
+    font-size: 20px;
+}
+
+.header-text-1>a:link {
+    color:black;
+    text-decoration: none;
+}
+
+.header-text-1>a:visited {
+    color:black;
+}
+
+.header-text-1>a:hover {
+    color: red;
+}
+
+.header-text {
+    width: 100px;
+}
+
+.header-img>div {
+    width: 100%;
+}
+
+.header-img-logo {
+    width: 100px;
+}
+
+.header-img-logo>div {
+    width: 100%;
+}
+
+.header-top {
+    flex-wrap: wrap;
+    width: 1680px;
+}
+
+.header-img-d>div {
+    width: 100%;
+}
+
+.header-img-logo2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 60px;
+}
+
+.header-img-logo2>div {
+    padding-top: 10px;
+}
+
+.header-tt {
+    display: flex;
+    justify-content: center;
+    top: 0%; 
+    width: 1900px;   
+    background-color:#c7c4eb;;
+}
+
+
+
+
+
+/*
+*/

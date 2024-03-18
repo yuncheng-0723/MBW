@@ -1,0 +1,466 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBW</title>
+    <link rel="stylesheet" href="css/test.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="root-body">
+        <div class="root-body-1">
+            <header>
+                <div class="header-top">
+                    <div class="header-tt">
+                        <div class="header-1">
+
+                            <div class="header-img-logo">
+                                <div>
+                                    <a href="index.html">
+                                        <img src="img/logo2.png" width="100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-text" onclick="opennav()">
+                                <div class="header-text-1">
+                                    <a href="javascript:void(0)">
+                                        <p>所有車型</p>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="header-text">
+                                <div class="header-text-1">
+                                    <a href="../MBW(logined)\MBW\html\shopcar/user.jsp">
+                                        <p>購物車車</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-text">
+                                <div class="header-text-1">
+                                    <a href="html/end-term.html">
+                                        <p>會員專區</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-text">
+                                <div class="header-text-1">
+                                    <a href="html/board/user.jsp" target="_self">
+                                        <p>留言板</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header-text">
+                                <div class="header-text-1">
+                                    <a href="html/aboutus.html" target="_self">
+                                        <p>關於我們</p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="header-img-logo2">
+                            <div>
+                                <a href="https://www.bmw.com.tw/zh/index.html" target="_blank ">
+                                    <img src="img/BMW.png" width="100%">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!---->
+                    <div class="test" id="zhen">
+                        <div class="root-test">
+                            <div class="root-nav">
+                                <div class="nav">
+                                    <div class="nav-2">
+                                        <div class="nav-button">
+                                            <button onclick="al()">ALL</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="1">1</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="2">2</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="3">3</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="4">4</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="5">5</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="6">6</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="7">7</button>
+                                        </div>
+
+                                        <div class="nav-button">
+                                            <button onclick="show(this)" value="8">8</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0)" onclick="closenav()" class="close">x</a>
+                            </div>
+
+                            <div class="root-show">
+                                <div>
+                                    <div class="show" id="car1">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/1/1.png" width="100%">
+                                                </div>
+                                            </div>                                            
+                                        </div>                                        
+                                    </div>
+                                    <div class="show" id="car2">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/2/2-1.webp" width="100%">
+                                                </div>
+                                            </div>
+                                            <div class=" show-img-2 ">
+                                                <div>
+                                                    <img src="img/2/2-2.png" width="100%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/2/2.png" width="100%">
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                    <div class="show" id="car3">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/3/3-1.png" width="100%">
+                                                </div>
+                                            </div>
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/3/3-touring.png" width="100%">
+                                                </div>
+                                            </div>
+                                        </div>                                        
+                                    </div>
+                                    <div class="show" id="car4">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/4/4.webp" width="100%">
+                                                </div>
+
+                                            </div>                                            
+                                        </div>                                        
+                                    </div>
+                                    <div class="show" id="car5">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/5/5-touring.png" width="100%">
+                                                </div>
+                                            </div>
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/5/5.png" width="100%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="show" id="car6">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/6/6.webp" width="100%">
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                    <div class="show" id="car7">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/7/7.webp" width="100%">
+                                                </div>
+                                            </div>                                            
+                                        </div>
+                                    </div>
+                                    <div class="show" id="car8">
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/8/8-convertible.png" width="100%">
+                                                </div>
+                                            </div>
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/8/8-coupe.png" width="100%">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="show-img">
+                                            <div class="show-img-2">
+                                                <div>
+                                                    <img src="img/8/8-gran-coupe-m850i.png" width="100%">
+                                                </div>
+                                            </div>                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+                </div>
+
+            </header>
+
+
+
+            <div class=" reco-img3 ">
+                <div>
+                    <img src="img/bmwcar33.webp " width=" 100% ">
+                    <button class=" btn ">
+                        想買嗎???
+                    </button>
+                </div>
+
+                <div>
+                    <img src="img/bmwcar13.png " width=" 100% ">
+                    <button class=" btn ">
+                        想得美!!!
+                    </button>
+                </div>
+            </div>
+
+            <div class=" slider ">
+                <div class=" slider-img ">
+                    <div>
+                        <img src="img/bmwcar13.png " width=" 100% ">
+                    </div>
+                </div>
+
+                <div class=" slider-img ">
+                    <div>
+                        <img src="img/bmwcar16.png " width=" 100% ">
+                    </div>
+                </div>
+
+                <div class=" slider-img ">
+                    <div>
+                        <img src="img/bmwcar18.png " width=" 100% ">
+                    </div>
+                </div>
+
+                <div class=" slider-img ">
+                    <div>
+                        <img src="img/bmwcar25.webp " width=" 100% ">
+                    </div>
+                </div>
+
+                <div class=" slider-img ">
+                    <div>
+                        <img src="img/bmwcar32.webp " width=" 100% ">
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+		            
+            <div class="testt">
+                <div class="testt-1">
+                    <div class="testt-1-1">
+                        <div>
+                            <div>
+                                <img src="img/a1.jpg" style="width: 100%;">
+                            </div>
+                            <div>
+                                <p>
+                                    把最愛託付給最懂的人，立即預約回廠享6大項免費車輛健診、精選零件68折起優惠
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="img/a2.jpg" style="width: 100%;">
+                            </div>
+                            <div>
+                                <p>
+                                    【智選專案】0頭款、0首付多元分期，本月入主再享1年乙式全險與頂級5星假期住宿套裝
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testt-1-1">
+                        <div>
+                            <div>
+                                <img src="img/a3.jpg" style="width: 100%;">
+                            </div>
+                            <div>
+                                <p>
+                                    全新首創BMW 2系列Gran Coupé 完美承襲8系列Gran Coupé設計語彙，斜背流線車尾線條，加上極具動感的車尾造型，超凡基因存在即焦點！
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="img/a4.jpg" style="width: 100%;">
+                            </div>
+                            <div>
+                                <p>
+                                    把最愛託付給最懂的人，立即預約回廠享6大項免費車輛健診、精選零件68折起優惠
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+            <marquee direction="left"scrollamount="5">
+                <p>BMW八代全新車款現正熱銷中</p>
+            </marquee>
+		
+        <footer>
+            <div>
+                <div class=" footer-hr ">
+
+                    <hr>
+                </div>
+                <div class=" footer-text ">
+                    <div>
+                        <div>
+                            <h3>
+                                <p style=" border: black; ">
+                                    了解更多BMW的資料
+                                </p>
+                            </h3>
+                            <p>
+                                <a href=" https://bps.bmw.com.tw/ " target="_blank " class="footer-a">BMW BPS原廠認證中古車</a>
+                            </p>
+                            <p>
+                                <a href=" https://care.bmwhk.com/zh/#/login " target="_blank "
+                                    class="footer-a">維修及保養預約</a>
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                <p style=" border: black; ">
+                                    下載專區
+                                </p>
+                            </h3>
+                            <p>
+                                <a href=" https://play.google.com/store/apps/details?id=de.bmw.connected&hl=zh_TW&gl=US "
+                                    target="_blank " class="footer-a">
+                                    移動端用戶下載
+                                </a>
+                            </p>
+                            <p>
+
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3>
+                                <p style=" border: black; ">
+                                    影音教學
+                                </p>
+                            </h3>
+                            <p>
+                                <a href=" https://www.youtube.com/watch?v=UD5TBRMBJc0&list=UUnltwTbU6WtwWYHEgZITcOg "
+                                    target="_blank " class="footer-a">
+                                    設定中控螢幕
+                                </a>
+                            </p>
+                        </div>
+                        <div>
+                            <h3>
+                                <p style=" border: black; ">
+                                    資料來源
+                                </p>
+                            </h3>
+                            <p>
+                                <a href=" https://www.bmw.com.tw/zh/index.html " target=" _blank " class="footer-a">
+                                    BMW官方網站
+                                </a>
+                            </p>
+                            <p>
+                                <a href=" https://www.youtube.com/user/BMWTWOFFCIAL " target=" _blank "
+                                    class="footer-a">
+                                    YT官方網站
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <div class=" footer-2">
+            © MBW
+        </div>
+    </div>
+
+    <script>
+
+        function al() {            
+            block();
+        }
+
+        function show(e) {
+            for (var i = 1; i <= 8; i++) {
+                document.getElementById("car" + i).style.display = ("none");
+            }
+
+            for (let i = 1; i <= 8; i++) {
+                if (i == e.value) {
+                    document.getElementById("car" + i).style.display = ("block");
+                }
+            }
+        }
+
+
+        function opennav() {
+            document.getElementById("zhen").style.height = "600px";
+        }
+        function closenav() {
+            document.getElementById("zhen").style.height = "0px";
+            block();
+        }
+
+        function block() {
+            for (var i = 1; i <= 8; i++) {
+                document.getElementById("car" + i).style.display = ("block");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,411 @@
+body {
+    margin: 0%;
+}
+
+div {
+    font-family: "微軟正黑體";
+}
+
+.footer-a{
+    text-decoration: none;    
+}
+
+.footer-a:link{
+    color:blue;
+}
+
+.footer-a:visited{
+    color:blue;
+}
+
+.footer-a:hover{
+    color:red;
+}
+
+.root-body {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1900px;
+}
+
+.root-body-1 {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;    
+    height: 750px;
+    padding-bottom: 5px;
+    background-image: url("../img/BMWcar4.jpg");
+}
+
+.header-1 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    width: 1000px;
+}
+
+.header-text-1 {
+    font-size: 20px;
+}
+
+.header-text-1>a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-text-1>a:visited {
+    color: white;
+}
+
+.header-text-1>a:hover {
+    color: black;
+}
+
+.header-text {
+    width: 100px;
+}
+
+.header-img>div {
+    width: 100%;
+}
+
+.header-img-logo {
+    width: 100px;
+}
+
+.header-img-logo>div {
+    width: 100%;
+}
+
+.header-top {
+    flex-wrap: wrap;
+    width: 1680px;
+}
+
+.header-img-d>div {
+    width: 100%;
+}
+
+.header-img-logo2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 70px;
+}
+
+.header-img-logo2>div {
+    padding-top: 10px;
+}
+
+.header-tt {
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    height: 100px;
+}
+
+
+/*
+
+*/
+
+.test {
+    background-color: rgba(12, 12, 12, 0.85);    
+    height: 0%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    display: flex;
+    justify-content: center;
+}
+
+.root-test {
+    width: 900px;
+    background-color: white;
+    padding: 0px, 0px, 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test>div {
+    width: 1400px;
+    background-color: white;
+    display: flex;
+}
+
+.close {
+    padding-left: 21px;
+    z-index: 200;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.root-nav>a {
+    overflow: hidden;
+}
+
+.root-nav>a:link {
+    color: black;
+}
+
+.root-nav>a:visited {
+    color: black;
+}
+
+.root-nav {
+    display: flex;
+    width: 1400px;
+    height: 50px;
+}
+
+.nav {
+    width: 900px;
+}
+
+.nav-2 {
+    display: flex;
+}
+
+.nav-button {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+.nav-button>button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 30px;
+    border-right: rgba(12, 12, 12, 0.85);
+}
+
+.nav-button>button:hover {
+    background-color: rgba(12, 12, 12, 0.85);
+}
+
+.root-show {
+    flex-wrap: wrap;
+    display: flex;
+    height: 550px;
+    width: 1400px;
+}
+
+.root-show > div{
+    flex-wrap: wrap;
+    display: flex;
+    height: 550px;
+    width: 1400px;
+    overflow: scroll;
+}
+
+.show-img {
+    width: 300px;
+}
+
+.show-img-2{
+    width: 300px;
+}
+
+.show-img-2> div{
+    width: 100%;
+}
+
+
+
+/*
+
+*/
+
+.reco-img3 {
+    width: 1350px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 500;
+}
+
+.reco-img3>div {
+    width: 670px;
+    position: relative;
+    z-index: 100;
+}
+
+.btn {
+    height: 40px;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 2px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 300;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.slider-img>div>img {
+    width: 100%;
+}
+
+.slider-img>div {
+    width: 100%;
+}
+
+.slider-img {
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    animation: slide 25s infinite;
+    opacity: 0;
+}
+
+.slider {
+    width: 1350px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.slider>div:nth-child(2) {
+    animation-delay: 5s
+}
+
+.slider>div:nth-child(3) {
+    animation-delay: 10s
+}
+
+.slider>div:nth-child(4) {
+    animation-delay: 15s
+}
+
+.slider>div:nth-child(5) {
+    animation-delay: 20s
+}
+
+@keyframes slide {
+    10% {
+        opacity: 1
+    }
+    20% {
+        opacity: 1
+    }
+    30% {
+        opacity: 0
+    }
+    40% {
+        opacity: 0
+    }
+}
+
+marquee{
+    width: 1000px;
+    display: flex;
+    color: rgba(114, 10, 10, 0.85);
+}
+.marquee-img {
+    width: 1000px;   
+    display: flex;    
+}
+
+.marquee-img>marquee > div{
+    width: 500px;
+}
+.marquee-img>marquee >div > img{
+    width: 100%;    
+}
+
+
+footer {
+    width: 1680px;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+.footer-hr {
+    width: 1680px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text>div {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2 {
+    width: 1680px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(43, 25, 40, 0.85);
+    overflow: hidden;
+    color: white;
+}
+
+.testt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1300px;
+    
+}
+
+.testt-1{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1400px;    
+}
+
+.testt-1-1 {
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+.testt-1-1 >div{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.testt-1-1 >div>div{
+    width: 500px;
+}
+
+

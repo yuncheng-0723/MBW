@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopcar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/shopcar.css">
+    <link rel="stylesheet" href="../css/chat.css">
+</head>
+
+<body>
+     <!----->
+     <div class="header-tt">
+        <div class="header-1">
+
+            <div class="header-img-logo">
+                <div>
+                    <a href="../test.html">
+                        <img src="../img/logo2.png" width="100%">
+                    </a>
+                </div>
+            </div>
+            <div class="header-text" onclick="opennav()">
+                <div class="header-text-1">
+                    <a href="javascript:void(0)">
+                        <p>所有車型</p>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="header-text-1">
+                    <a href="../html/myfamous.html">
+                        <p>我的最愛</p>
+                    </a>
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="header-text-1">
+                    <a href="../html/end-term.html" target="_blank">
+                        <p>會員專區</p>
+                    </a>
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="header-text-1">
+                    <a href="../html/shopcar.html" target="_blank">
+                        <p>結帳窗口</p>
+                    </a>
+                </div>
+            </div>
+            <div class="header-text">
+                <div class="header-text-1">
+                    <a href="html/aboutus.html" target="_blank">
+                        <p>關於我們</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header-img-logo2">
+            <div>
+                <a href="https://www.bmw.com.tw/zh/index.html" target="_blank " >
+                    <img src="../img/BMW.png" width="100%">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <!----->
+    
+    <!-- 結帳 -->
+    <div class="title-text">
+        <a href="../test.html"> <img src="../img/LOGO.png" alt="" style="float: right;"></a>
+        <h2 style="color: red;">請放心使用本系統，您所提供的資料將被安全保護</h2>
+        <p style="font-size: 20px;">本公司為提供良好的網站服務，將不定期的更新系統，若遭遇突發狀況請耐心等候，將快速為您排除，或者利用下方聊天室與我們回報，謝謝!!</p>
+
+    </div>
+
+    <div class="root">
+        <div class="row">
+            <div class="col-75">
+                <div class="container">
+                    <form action="/action_page.php">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <h3>帳單地址</h3>
+                                <label for="fname"><i class="fa fa-user"></i> 姓名</label>
+
+                                <input type="text" id="fname" name="firstname" style="font-family: 'Langar', cursive;" placeholder="shithongping">
+                                <label for="email"><i class="fa fa-envelope"></i> 電子郵件</label>
+                                <input type="text" id="email" name="email" style="font-family: 'Langar', cursive;" placeholder="shithongping@gmail.com">
+                                <label for="adr"><i class="fa fa-address-card-o"></i> 居住地址</label>
+                                <input type="text" id="adr" name="address" placeholder="桃園市中壢區普忠路206號">
+                                <label for="city"><i class="fa fa-institution"></i> 送達地址</label>
+                                <input type="text" id="city" name="city" placeholder="桃園市中壢區中北路200號">
+
+
+                            </div>
+
+                            <div class="col-50">
+                                <h3>Payment</h3>
+                                <label for="fname">可接受之信用卡</label>
+                                <div class="icon-container">
+                                    <i class="fa fa-cc-visa" name="visa" style="color:navy;"></i>
+                                    <i class="fa fa-cc-amex" name="amex" style="color:blue;"></i>
+                                    <i class="fa fa-cc-mastercard" name="mastercard" style="color:red;"></i>
+                                    <i class="fa fa-cc-discover" name="discover" style="color:orange;"></i>
+                                </div>
+
+                                <label for="ccnum">信用卡號</label>
+                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                <label for="expmonth">到期月份</label>
+                                <input type="text" id="expmonth" name="expmonth" style="font-family: 'Langar', cursive;" placeholder="September">
+                                <div class="row">
+                                    <div class="col-50">
+                                        <label for="expyear">到期年分</label>
+                                        <input type="text" id="expyear" name="expyear" placeholder="2020">
+                                    </div>
+                                    <div class="col-50">
+                                        <label for="cvv">末三碼</label>
+                                        <input type="text" id="cvv" name="cvv" placeholder="666">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <label>
+                            <input type="checkbox" checked="checked" name="sameadr"> 是否需派專員陪同試乘
+                        </label>
+                        <input type="submit" value="繼續結帳" class="btn">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- 客服聊天 -->
+    <button class="open-button" onclick="openForm()">客服諮詢請點我</button>
+    <div class="root-Customer">
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>很高興為您服務</h1>
+
+                <label for="msg"><b>請盡情暢所欲言，我們會仔細聆聽</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">發送</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">取消</button>
+            </form>
+        </div>
+
+    </div>
+
+
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
